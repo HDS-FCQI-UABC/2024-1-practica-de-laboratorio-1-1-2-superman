@@ -2,6 +2,7 @@
 from gato import Gato
 from perro import Perro
 from lobo import Lobo
+from zorro import Zorro
 
 # Crear una instancia de Gato
 mi_gato = Gato("Felix")
@@ -20,3 +21,10 @@ mi_lobo = Lobo("Jordan Belfort")
 
 # Llamar al método hacer_sonido
 print(mi_lobo.hacer_sonido())
+
+# Crear una instancia de Zorro
+mi_zorro = Zorro("Toby")
+
+# Llamar al método hacer_sonido
+print(mi_zorro.hacer_sonido())
+
